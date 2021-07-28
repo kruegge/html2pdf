@@ -34,7 +34,7 @@ func main() {
 	// re-enable events when changing active tab
 	_ = remote.AllEvents(true) // enable all events
 
-	_, _ = remote.Navigate("https://www.ab-in-den-urlaub.de")
+	_, _ = remote.Navigate("https://github.com/kruegge/html2pdf")
 	_ = remote.SetVisibleSize(1920, 1080)
 
 	time.Sleep(time.Second * 8)
